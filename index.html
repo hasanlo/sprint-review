@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://bootswatch.com/4/materia/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="static/css/webslides.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="static/css/svg-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="static/css/style.css"
+    />
+
+    <!-- FAVICONS -->
+    <link
+      rel="shortcut icon"
+      sizes="16x16"
+      href="static/images/favicons/favicon.png"
+    />
+    <link
+      rel="shortcut icon"
+      sizes="32x32"
+      href="static/images/favicons/favicon-32.png"
+    />
+    <link
+      rel="apple-touch-icon icon"
+      sizes="76x76"
+      href="static/images/favicons/favicon-76.png"
+    />
+    <link
+      rel="apple-touch-icon icon"
+      sizes="120x120"
+      href="static/images/favicons/favicon-120.png"
+    />
+    <link
+      rel="apple-touch-icon icon"
+      sizes="152x152"
+      href="static/images/favicons/favicon-152.png"
+    />
+    <link
+      rel="apple-touch-icon icon"
+      sizes="180x180"
+      href="static/images/favicons/favicon-180.png"
+    />
+    <link
+      rel="apple-touch-icon icon"
+      sizes="192x192"
+      href="static/images/favicons/favicon-192.png"
+    />
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#333333" />
+  </head>
+  <body>
+    <!-- <header role="banner">
+    </header> -->
+
+    <main role="main">
+      <article id="webslides" class="vertical">
+        <section>
+          <span
+            class="background"
+            style="background-image:url('static/images/back.jpg')"
+          ></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1><strong>best sprint review</strong></h1>
+            <br />
+            <p class="text-intro">presented by best team</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="slide-top slide ">
+          <!--.wrap = container (width: 90%) -->
+          <div class="size-50 aligncenter ">
+            <h2><strong id="sprintName"></strong></h2>
+            <p class="text-intro">تاریخ :‌ <span id="sprintDate"></span></p>
+            <ol id="slides" class="text-cols rtl"></ol>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+    <script src="static/js/main.js"></script>
+    <script src="static/js/moment-with-locales.js"></script>
+    <script src="static/js/jalali-moment.browser.js"></script>
+    <script src="static/js/webslides.js"></script>
+    <script defer src="static/js/svg-icons.js"></script>
+  </body>
+</html>
